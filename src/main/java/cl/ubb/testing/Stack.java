@@ -1,5 +1,33 @@
+
 package cl.ubb.testing;
 
-public class Stack {
+import java.util.Scanner;
 
+
+public class Stack {
+	
+	private int top;
+	
+	public Stack() {
+		this.top=0;
+		
+		
+	}
+	
+	public String empty() {
+		if(top==0) {
+			return "is empty";
+		}
+		return null;
+	}
+	
+	
+	
 }
+	  
+	
+	
+	
+    
+	
+
